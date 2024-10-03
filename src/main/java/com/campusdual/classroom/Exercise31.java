@@ -15,7 +15,7 @@ public class Exercise31 {
 
 //            br = new BufferedReader(new FileReader(new File("src/main/resources/lorem.txt")));
             br = new BufferedReader(new InputStreamReader(is));
-            String linea = "";
+            String linea;
             while ((linea = br.readLine()) != null) {
                 System.out.println(linea);
             }
